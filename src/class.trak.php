@@ -68,6 +68,7 @@ class Trak {
 
     /**
      * @name trakUser
+     * @param type $uniqueId 
      * @param type $event
      * @param type $page
      * @return json
