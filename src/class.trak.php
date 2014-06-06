@@ -24,8 +24,8 @@ class Trak {
     /**
      * @name identify
      * @param type $id
-     * @param type $name
-     * @param type $email
+     * @param string $name
+     * @param string $email
      * @return json
      */
     public function identify($id, $name, $email)
@@ -67,10 +67,9 @@ class Trak {
     }
 
     /**
-     * @name trakUser
-     * @param type $uniqueId 
-     * @param type $event
-     * @param type $page
+     * @param type $uniqueId
+     * @param string $event
+     * @param string $page
      * @return json
      */
     public function trakUser($uniqueId, $event, $page)
